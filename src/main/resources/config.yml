@@ -1,0 +1,6 @@
+# To change the join message only change the stuff INSIDE the ' ' marks!
+# Use %player% to have it put the name of the person who joined in the message, but it isn't required.
+# Note that %player% will display the name of the player NOT the custom name if there is one, I did this on purpose.
+# %cplayer% will display the custom name if there is one.
+# You can also use color codes that use "&" for example &3 is a dark aqua color.
+join-message: '&aWelcome to the server, &3&l%player%!'

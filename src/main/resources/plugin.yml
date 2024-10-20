@@ -1,0 +1,18 @@
+name: ExperimentPlugin
+version: '1.0-SNAPSHOT'
+main: me.starbro.experimentplugin.ExperimentPlugin
+api-version: '1.21'
+
+commands:
+  commands:
+    menu:
+      description: Opens a test gui.
+      usage: /<command>
+    test:
+      description: Does plugin debug stuff.
+      usage: /<command> <args>
+      permission: test.star
+  permissions:
+    test.star:
+      description: This permission allows you to run the /test command.
+      default: not op
